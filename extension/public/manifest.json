@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "name": "Help Me Out",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "activeTab"
+      ],          
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "icons": {
+        "16": "icon.png"
+    }
+}
